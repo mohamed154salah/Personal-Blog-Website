@@ -1,0 +1,112 @@
+body {
+    background-color: #79031D;
+
+}
+
+.navbar {
+    background-color: #000407;
+    display: flexbox;
+    flex-flow: row;
+    align-items: center;
+
+}
+
+.active {
+    background-color: rgba(5, 4, 0, 0.966);
+
+}
+
+nav a.anv {
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-size: 40px;
+    padding: 15px;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+}
+
+.end {
+    float: right;
+}
+
+body h1 {
+    text-align: center;
+    color: #F5F7F6;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+    margin: 1vh 12vw;
+
+}
+
+main section.card {
+    background-color: #F5F7F6;
+    border-radius: 25px;
+    border: 2px solid rgb(185, 163, 89);
+    padding: 10%;
+    box-shadow: 5px 5px 2.5px #9F496E;
+}
+
+.square {
+    display: flexbox;
+    position: relative;
+    width: 70%;
+
+}
+
+section h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #EDB518;
+}
+
+section h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: lightcoral;
+
+}
+
+.date {
+    color: grey;
+}
+
+footer {
+    background-color: #000407;
+    height: 8vh;
+}
+
+.footer-cont {
+    text-align: center;
+    color: white;
+    padding: 1%;
+
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        display: block;
+
+
+    }
+
+    main section.card {
+        border-radius: 10px;
+        border: 1px solid rgb(87, 166, 219);
+        padding: 5%;
+        margin-bottom: 2%;
+    }
+}
